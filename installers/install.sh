@@ -22,5 +22,6 @@ wget https://raw.githubusercontent.com/LiquidGalaxyLAB/AI-Mirror/master/config/c
 # Magic Mirror end
 read -p "Do you want to start AI Mirror now (y/N)?" choice
 if [[ $choice =~ ^[Yy]$ ]]; then
+	cd ~/MagicMirror
 	npm start
 fi
